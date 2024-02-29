@@ -7,6 +7,7 @@ This repository provides a shell that you can use to add only a `man` page to yo
 > [!WARNING]  
 > This project was made for fun, to learn about the .deb packaging system.
 > You should never install packages whose source you do not trust.
+> I do not recommend using `.deb` as a way to share your blog to readers (the web is the best way to share what you write online), but this repository may help you learn a thing or two about the structure of a `.deb` file.
 
 ## Getting started
 
