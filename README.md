@@ -12,7 +12,7 @@ This repository provides a shell that you can use to add only a `man` page to yo
 
 To get started, clone this repository:
 
-```
+```bash
 git clone https://capjamesg/jamesg.blog.deb
 cd jamesg.blog.deb/jamesg.blog
 ```
@@ -25,21 +25,22 @@ Then:
 
 Once you have set up your package, run the following commands to build your package:
 
-```
+```bash
 mkdir my-package
-mv debian my-package/
+mv DEBIAN my-package/
+echo " " > my-package/my-package # you need to have a blank file with the same name as your binary
 dpkg-deb --build --root-owner-group my-package/
 ```
 
 To install your package, run:
 
-```
+```bash
 sudo dpkg -i my-package.deb
 ```
 
 Your manual page will be available at:
 
-```
+```bash
 man my-package
 ```
 
