@@ -1,8 +1,10 @@
 # Turn your blog into a .deb file 
 
-A `.deb` file is a bundled file that you can use to distribute software on Linux machines. This repository provides a shell that you can use to add only a `man` page to your system's manual.
+A `.deb` file is a bundled file that you can use to distribute software on Linux machines.
 
-> [!IMPORTANT]  
+This repository provides a shell that you can use to add only a `man` page to your system's manual.
+
+> [!WARNING]  
 > This project was made for fun, to learn about the .deb packaging system.
 > You should never install packages whose source you do not trust.
 
@@ -12,7 +14,7 @@ To get started, clone this repository:
 
 ```
 git clone https://capjamesg/jamesg.blog.deb
-cd jamesg.blog.deb
+cd jamesg.blog.deb/jamesg.blog
 ```
 
 Then:
