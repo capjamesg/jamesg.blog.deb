@@ -1,5 +1,11 @@
-Package: jamesg.blog
+Source: jamesg.blog
+Section: misc
+Priority: optional
+Maintainer: Capjamesg James <jamesg@jamesg.blog>
 Version: 2024.02.29
-Architecture: arm64
-Maintainer: capjamesg <jamesg@jamesg.blog>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.5.0
+Package: jamesg.blog
+Architecture: amd64
 Description: James' Coffee Blog.
+
