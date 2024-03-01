@@ -6,6 +6,6 @@ Version: 2024.02.29
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.5.0
 Package: jamesg.blog
-Architecture: amd64
+Architecture: all
 Description: James' Coffee Blog.
 
